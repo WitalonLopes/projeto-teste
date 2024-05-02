@@ -1,0 +1,25 @@
+body {
+    background-image: linear-gradient(to right, rgb(17, 24, 39), rgb(75, 85, 99));
+    display: flex;
+    justify-content: center;
+}
+
+.main .titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+}
+div {
+    display: flex;
+    height: 100vh;
+    width: 900px;
+    margin-top: 30px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.titulo {
+    display: block;
+    color: bisque;
+}

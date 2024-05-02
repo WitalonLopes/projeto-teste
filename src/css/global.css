@@ -1,0 +1,37 @@
+body {
+    background-image: linear-gradient(to right, rgb(17, 24, 39), rgb(75, 85, 99));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+span {
+    display: flex;
+    width: 400px;
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+    color: bisque;
+}
+
+.btn {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn a input {
+    width: 100px;
+    height: 60px;
+    font-size: 28px;
+    border-radius: 25%;
+    box-shadow: 0 0 15px black;
+}
+
+.btn a input:hover {
+    box-shadow: 0 0 30px black;
+    cursor: pointer;
+}
